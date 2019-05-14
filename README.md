@@ -1,4 +1,7 @@
 # PIZZA-DELIVERY_Pet-project
+
+https://e-v-pavlova.github.io/PIZZA-DELIVERY_Pet-project/
+
 Frontend part of the pizza delivery site. 
 The main sections: a gallery of goods and a basket with an order form. 
 OOP principles are used. 
