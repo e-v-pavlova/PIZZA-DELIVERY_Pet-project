@@ -1,0 +1,27 @@
+<div class="basket-item">
+    <div class="container-fluid basket-item__top" data-productid = "${item.id}">
+        <div class="row">
+            <div class="col-12 col-lg-5">
+                <div class="basket-item__img">
+                    <img class="product-img" src="{{% src %}}" alt=''>
+                </div>
+            </div>
+            <div class="col-12 col-lg-7">
+                <div class=" basket-item__desc">
+                    <div class="basket-item__title">{{% name %}}</div>
+                    <div class="basket-item__weight">{{% size %}} см / {{% weight %}}г</div>
+                    <div class="basket-item__details">
+                        <div class="items items--small">
+                            <div class="items__control" data-onclick="commonMinus">-</div>
+                            <div class="items__current">{{% count %}}</div>
+                            <div class="items__control" data-onclick="commonPlus">+</div>
+                        </div>
+                        <div class="price">
+                            <div class="price__currency">{{% price %}} ₽</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

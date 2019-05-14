@@ -1,0 +1,57 @@
+[{
+    "id": 1,
+    "src": "img/pizza/bigCity.png",
+    "name": "Сытная пицца",
+    "size": 30,
+    "weight": 900,
+    "price": 600
+},
+{
+    "id": 2,
+    "src": "img/pizza/margarita.png",
+    "name": "Маргарита",
+    "size": 20,
+    "weight": 500,
+    "price": 500
+},
+{
+    "id": 3,
+    "src": "img/pizza/pepperoni.png",
+    "name": "Пепперони",
+    "size": 20,
+    "weight": 550,
+    "price": 540
+},
+{
+    "id": 4,
+    "src": "img/pizza/village.png",
+    "name": "Деревенская",
+    "size": 25,
+    "weight": 850,
+    "price": 550
+},
+{
+    "id": 4,
+    "src": "img/pizza/vegan.png",
+    "name": "Вегетарианская",
+    "size": 25,
+    "weight": 700,
+    "price": 400
+},
+{
+    "id": 4,
+    "src": "img/pizza/east.png",
+    "name": "Восточная",
+    "size": 20,
+    "weight": 700,
+    "price": 450
+},
+{
+    "id": 4,
+    "src": "img/pizza/fourCheeses.png",
+    "name": "Четыре сыра",
+    "size": 25,
+    "weight": 800,
+    "price": 500
+}
+]

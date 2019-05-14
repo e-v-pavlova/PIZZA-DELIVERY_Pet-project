@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700|Jura:500" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container text-center">
+			<img src="img/logo/pizza-logo.png" width="92" alt="Пицца">
+			<div class="display-4">Доставка пиццы</div>
+			<p class="lead">Быстро и вкусно</p>
+		</div>
+	</header>
+
+	<div class="container mb-5">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="row" id="shopWindow">
+
+					
+				</div>
+			</div>
+			<div class="col-md-4">
+
+				<!-- Корзина -->
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">Ваш заказ</h5>
+						<!-- basket-wrapper -->
+						<div class="basket-wrapper" id="basketWindow">
+                            <div class="alert alert-secondary" id="emptyBasket" role="alert">
+								Корзина пуста
+							</div>
+							<div id="fullBasket">
+								
+
+							</div>
+							<div class="basket-total" id="basketTotal">
+								<p>
+									<span class="h5">Доставка:</span> 
+									<span class="delivery-cost" id ="deliveryCost">100 ₽</span> 
+									<span class="delivery-cost free" id ="deliveryCostFree">бесплатно</span>
+								</p>
+
+								<p><span class="h5">Итого:</span> <span class="total-price" id ="commonPrice">0</span> <span class="rouble">₽</span></p>
+							</div>
+						</div>
+						<!-- // basket-wrapper -->
+					</div>
+					<div class="card-body border-top" id="basketOrder" >
+						<h5 class="card-title">Оформить заказ</h5>
+
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Ваш номер телефона">
+							</div>
+							<button type="submit" class="btn btn-outline-primary">Заказать</button>
+						</form>
+					</div>
+				</div>
+				<!-- // Корзина -->
+
+			</div>
+		</div>
+	</div>
+
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
+	<script src="js/Shop.js"></script>
+	<script src="js/Basket.js"></script>
+	<script src="js/Good.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
